@@ -1,0 +1,182 @@
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+}
+
+/* Overwrite default styles of h3 and h4 */
+h3, h4 {
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+    color: #111;
+}
+
+/* Remove rounded borders on input fields */
+.form-control {
+    border-radius: 0;
+}
+
+/* Disable the ability to resize textareas */
+textarea {
+    resize: none;
+}
+
+/* navbar */
+.navbar {
+    background-color: white;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    font-weight: bold;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 40px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#myNavbar {
+	color: orange;
+}
+
+/* carrosel background */
+#myCarousel {
+	margin-bottom: 100px
+}
+
+/* nossos servicos */
+.services {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 20%;
+    height: 20%;
+    opacity: 0.9;
+    margin-top: 30px;
+}
+
+.services:hover {
+    border-color: #f1f1f1;
+}
+
+#images-services {
+    padding-left: -10px;
+}
+
+.container.text-center {
+    padding-top: 0px;
+    padding-bottom: 70px;
+}
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 50px;
+    width: 50%;
+    height: 50%;
+    opacity: 0.9;
+}
+
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+/* eventos */
+/* Remove rounded borders from list */
+.container {
+    padding: 80px 120px;
+}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+
+.bg-1 h3 {color: #fff;}
+
+.bg-1 p {font-style: italic;}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.thumbnail {
+    padding: 0 0 10px 0;
+    border: none;
+    border-radius: 0;
+    width: 200px;
+}
+
+.thumbnail p {
+    margin-top: 10px;
+    color: #555;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+    margin-top: 20px;
+}
+
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+/* contato */
+.nav-tabs li a {
+    color: #777;
+}
+
+/* Add a dark background color to the footer */
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+
+footer a {
+    color: #f5f5f5;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+
